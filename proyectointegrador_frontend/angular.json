@@ -25,9 +25,13 @@
               "src/assets"
             ],
             "styles": [
+              "proyectointegrador_frontend/node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "proyectointegrador_frontend/node_modules/bootstrap/dist/js/bootstrap.js",
+            ]
+
           },
           "configurations": {
             "production": {
