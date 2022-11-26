@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "proyectointegrador_frontend": {
+    "proyectointegradorfrontend": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/proyectointegrador_frontend",
+            "outputPath": "dist/proyectointegradorfrontend",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -25,13 +25,9 @@
               "src/assets"
             ],
             "styles": [
-              "proyectointegrador_frontend/node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.css"
             ],
-            "scripts": [
-              "proyectointegrador_frontend/node_modules/bootstrap/dist/js/bootstrap.js",
-            ]
-
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -64,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "proyectointegrador_frontend:build:production"
+              "browserTarget": "proyectointegradorfrontend:build:production"
             },
             "development": {
-              "browserTarget": "proyectointegrador_frontend:build:development"
+              "browserTarget": "proyectointegradorfrontend:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -75,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "proyectointegrador_frontend:build"
+            "browserTarget": "proyectointegradorfrontend:build"
           }
         },
         "test": {
@@ -100,6 +96,6 @@
     }
   },
   "cli": {
-    "analytics": "6a40cbbf-3426-48f9-8adf-c16a7c811f63"
+    "analytics": false
   }
 }
