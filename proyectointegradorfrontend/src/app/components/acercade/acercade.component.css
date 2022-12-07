@@ -4,6 +4,7 @@
 div{
     background-color: #a1b5cb;
     text-align: center;
+    margin: auto;
 }
 /*estilo foto de perfil*/
 @media (min-width: 576px){
@@ -13,8 +14,7 @@ div{
         border-radius: 100%;
         box-shadow: 3px 3px 3px  blue;
         left: 3%;
-        top: 50%;
-        
+        top: 50%;     
     }
 }
 @media (max-width: 575px){
@@ -24,13 +24,11 @@ div{
         border-radius: 100%;
         box-shadow: 3px 3px 3px  blue;
         left: 3%;
-        top: 50%;
-        
+        top: 65%;      
     }
 }
 /* etiqueta nombre*/
 #nombre{
     font-weight: bold;
-    margin-top: 30%;
-    
+    margin-top: 30%;    
 }
