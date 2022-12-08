@@ -10,21 +10,21 @@ div{
 @media (min-width: 576px){
     #foto{
         position: absolute;
-        width: 20%;
+        width: 22%;
         border-radius: 100%;
         box-shadow: 3px 3px 3px  blue;
         left: 3%;
-        top: 50%;     
+        top: 70%;     
     }
 }
 @media (max-width: 575px){
     #foto{
         position: absolute;
-        width: 30%;
+        width: 22%;
         border-radius: 100%;
         box-shadow: 3px 3px 3px  blue;
         left: 3%;
-        top: 150%;      
+        top: 70%;      
     }
 }
 /* etiqueta nombre*/
