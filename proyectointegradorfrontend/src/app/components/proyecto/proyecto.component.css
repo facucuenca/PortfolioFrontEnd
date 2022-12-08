@@ -4,11 +4,9 @@
     width:100%; margin:0 auto;
 }
 .contenedor{
-    width: auto; 
-
-
-}
-.parte1{
+    width: auto;
+ }
+.parte1{ 
     display: inline-block;
     text-align: justify;
     padding: 20px; 
